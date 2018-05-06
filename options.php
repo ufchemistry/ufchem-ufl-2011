@@ -101,21 +101,21 @@ function optionsframework_options() {
 
 	$options[] = array( "name" => "Facebook",
 			"super-admin-only" => "0",
-			"desc" => "Enter the url of your organization's Facebook page (e.g. http://facebook.com/uflorida)",
+			"desc" => "Enter the url of your organization's Facebook page (e.g. https://www.facebook.com/uflorida)",
 			"id" => "opt_facebook_url",
 			"std" => "",
 			"type" => "text");
 			
 	$options[] = array( "name" => "Twitter",
 			"super-admin-only" => "0",
-			"desc" => "Enter the url of your organization's Twitter page (e.g. http://www.twitter.com/uflorida)",
+			"desc" => "Enter the url of your organization's Twitter page (e.g. https://twitter.com/@uf)",
 			"id" => "opt_twitter_url",
 			"std" => "",
 			"type" => "text");
 	
 	$options[] = array( "name" => "Youtube",
 			"super-admin-only" => "0",
-			"desc" => "Enter the url of your organization's Youtube page (e.g. http://www.youtube.com/universityofflorida)",
+			"desc" => "Enter the url of your organization's Youtube page (e.g. https://www.youtube.com/universityofflorida)",
 			"id" => "opt_youtube_url",
 			"std" => "",
 			"type" => "text");

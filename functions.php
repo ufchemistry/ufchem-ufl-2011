@@ -542,9 +542,9 @@ function ufandshands_register_menus() {
 
 $college_inst_data = array(
     "University of Florida" => array(
-        "facebook" => "http://www.facebook.com/uflorida/",
-        "twitter" => "http://twitter.com/uflorida/",
-        "youtube" => "http://www.youtube.com/user/universityofflorida/"
+        "facebook" => "https://www.facebook.com/uflorida",
+        "twitter" => "https://twitter.com/@uf",
+        "youtube" => "https://www.youtube.com/user/universityofflorida/"
 	)
 );
 
