@@ -333,3 +333,16 @@ function ufclas_responsive_facebook_meta(){
 	endif;
 }
 add_action('ufclas_responsive_head_top', 'ufclas_responsive_facebook_meta');
+
+// Make it possible to override template parts
+
+/**
+ * Display the institutional nav
+ * 
+ * @since 0.8.9
+ */
+if ( !function_exists('ufclas_responsive_top_nav') ){
+    function ufclas_responsive_top_nav(){
+        include get_template_directory() . '/library/php/uf-institutional-nav.php';
+    }  
+}

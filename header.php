@@ -35,10 +35,10 @@ global $opt_responsive;
 	if (!$disabled_global_elements):	
 		if ($opt_responsive && $detect_mobile) {
 			if (isset($_COOKIE["UFLmobileFull"])){
-				include('library/php/uf-institutional-nav.php'); 
+				ufclas_responsive_top_nav();
 			}
 		}else{
-			include('library/php/uf-institutional-nav.php'); 
+			ufclas_responsive_top_nav();
 		}
 	endif;
    ?>
@@ -97,7 +97,7 @@ global $opt_responsive;
 	<?php 
         if ($opt_responsive) {
 			if ($detect_mobile && !isset($_COOKIE["UFLmobileFull"])){
-	        	include('library/php/responsive-menu.php'); //responsive menu logic 
+	        	include 'library/php/responsive-menu.php'; //responsive menu logic 
 			}
          }
     ?>
